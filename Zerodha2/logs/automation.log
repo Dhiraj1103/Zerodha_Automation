@@ -1,0 +1,49 @@
+2026-06-04 10:59:27 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Coditas-Admin\Downloads\Selenium1\Zerodha2\testng.xml
+
+2026-06-04 10:59:28 INFO  TestListener:21 - ========================================
+2026-06-04 10:59:28 INFO  TestListener:22 - SUITE STARTED: Test
+2026-06-04 10:59:28 INFO  TestListener:23 - ========================================
+2026-06-04 10:59:33 INFO  TestListener:33 - TEST STARTED : login
+2026-06-04 10:59:33 INFO  Login_Test:30 - *************** Login Started ******************
+2026-06-04 10:59:33 INFO  Login_Test:41 - User ID entered successfully
+2026-06-04 10:59:34 INFO  Login_Test:47 - Password entered successfully
+2026-06-04 10:59:34 INFO  Login_Test:50 - Clicked on Login button successfully
+2026-06-04 10:59:38 ERROR Login_Test:107 - WebDriver Exception: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [21027e822dc0c604f8844d75fcf159a1, findElement {using=xpath, value=(//button[@type='button'])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\CODITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51621}, goog:processID: 9476, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51621/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 21027e822dc0c604f8844d75fcf159a1
+2026-06-04 10:59:38 WARN  Login_Test:20 - RETRYING TEST  : login | Attempt 1 of 2
+2026-06-04 10:59:38 WARN  TestListener:66 - TEST SKIPPED : login
+2026-06-04 10:59:39 INFO  TestListener:33 - TEST STARTED : login
+2026-06-04 10:59:39 INFO  Login_Test:30 - *************** Login Started ******************
+2026-06-04 10:59:39 ERROR Login_Test:107 - WebDriver Exception: invalid session id
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [21027e822dc0c604f8844d75fcf159a1, findElement {using=id, value=userid}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\CODITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51621}, goog:processID: 9476, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51621/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 21027e822dc0c604f8844d75fcf159a1
+2026-06-04 10:59:39 WARN  Login_Test:20 - RETRYING TEST  : login | Attempt 2 of 2
+2026-06-04 10:59:39 WARN  TestListener:66 - TEST SKIPPED : login
+2026-06-04 10:59:39 INFO  TestListener:33 - TEST STARTED : login
+2026-06-04 10:59:39 INFO  Login_Test:30 - *************** Login Started ******************
+2026-06-04 10:59:39 ERROR Login_Test:107 - WebDriver Exception: invalid session id
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [21027e822dc0c604f8844d75fcf159a1, findElement {using=id, value=userid}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\CODITA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51621}, goog:processID: 9476, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51621/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 21027e822dc0c604f8844d75fcf159a1
+2026-06-04 10:59:39 ERROR Login_Test:23 - RETRY EXHAUSTED: login failed after 2 retries
+2026-06-04 10:59:39 INFO  TestListener:73 - ========================================
+2026-06-04 10:59:39 INFO  TestListener:74 - SUITE FINISHED: Test
+2026-06-04 10:59:39 INFO  TestListener:75 -   Passed  : 0
+2026-06-04 10:59:39 INFO  TestListener:76 -   Failed  : 0
+2026-06-04 10:59:39 INFO  TestListener:77 -   Skipped : 2
+2026-06-04 10:59:39 INFO  TestListener:78 - ========================================

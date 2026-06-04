@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testCases.SellingCombinations">
+        <methods>
+          <include name="verifyQuantityAs0"/>
+          <include name="regular_Longterm_Limit_Day"/>
+          <include name="priceLessthanCircuit"/>
+          <include name="verifyQuantityLessThan0"/>
+          <include name="regular_Longterm_SL_Immediate"/>
+          <include name="regular_Longterm_SL_Day"/>
+          <include name="regular_Longterm_Market_Day"/>
+          <include name="triggerPriceGreaterThanPrice"/>
+          <include name="regular_Longterm_SLM_Immediate"/>
+          <include name="verifyQuantityMoreThan0"/>
+          <include name="regular_Longterm_SLM_Day"/>
+          <include name="regular_Longterm_Market_Immediate"/>
+          <include name="teardown"/>
+          <include name="verifyQuantityMoreExchangeQuantity"/>
+          <include name="initHelper"/>
+          <include name="verifyPriceAs0"/>
+          <include name="setup"/>
+          <include name="priceMorethanCircuit"/>
+          <include name="triggerPriceLessThanMarketPrice"/>
+          <include name="regular_Longterm_Limit_Immediate"/>
+        </methods>
+      </class> <!-- testCases.SellingCombinations -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
